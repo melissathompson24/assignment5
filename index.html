@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="UTF-8">
+        <title>ICT 4510 - Week 5 Assigment</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="jquery-ui-1.11.2.custom/jquery-ui.css">
+        <link rel="stylesheet" href="jquery-ui-1.11.2.custom/jquery-ui.structure.css">
+        <link rel="stylesheet" href="jquery-ui-1.11.2.custom/jquery-ui.theme.css">
+        <script src="jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+    </head>
+    <body>
+    	<!-- To tell old browsers where to get HTML5 elements -->
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    	</script>
+
+    	<!-- To tell page where to find main JavaScript. -->
+        <script async src="main.js">
+        </script>
+
+        <!-- To tell browsers when JavaScript is not loaded. -->
+        <noscript>This webpage does not have JavaScript enabled.
+        </noscript>
+
+
+<!--jQuery UI date picker-->
+<div>
+    <h2> Today's date is: 
+        <input type="text" name="date" id="date">
+    </h2>
+</div>
+
+
+<!--jQuery UI menu-->
+<h2 class="demoHeaders">Where would you like to go?</h2>
+<ul style="width:200px;" id="menu">
+    <li>Up</li>
+    <li>Down</li>
+    <li>To the Right
+        <ul style="width:200px;">
+            <li>Just past the corner</li>
+            <li>Across the street</li>
+            <li>In the tree</li>
+            <li>To the car</li>
+            <li>Where the redfern grows</li>
+        </ul>
+    </li>
+    <li>To the Left</li>
+    <li>All the way around</li>
+</ul>
+
+<!--html popup -->
+<div id="popUp" class="popUpHidden">
+    	<div id="popUpContainer">
+    		<div id="actualPopUp">
+    			<p>Do you want to stay a little longer or do you want to exit this site?</p>
+    			<a href="#stay" title="Stay" class="stay">Stay</a>
+    			<a href="#exit" title="Exit" class="exit">Exit</a>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

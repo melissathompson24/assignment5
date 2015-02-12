@@ -1,0 +1,46 @@
+/*CSS*/
+
+.popUpHidden {
+	display:none;
+	z-index: 999;
+}
+
+#popUpContainer {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+}
+
+#actualPopUp {
+	width: 300px;
+	text-align: center; 
+	margin: auto;
+}
+
+
+#actualPopUp {
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+#actualPopUp a {
+	padding: 5px 20px;
+	margin: 10px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#actualPopUp a:hover {
+	padding: 5px 20px;
+	margin: 10px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-decoration: none;
+	background: #00d9ff;
+}

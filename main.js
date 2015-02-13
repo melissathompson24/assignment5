@@ -8,6 +8,10 @@ $( "#date" ).datepicker();
 /*jQuery UI Menu*/
 $( "#menu" ).menu();
 
+$("#menu" ).menu({
+	icons: {submenu: "ui-icon-circle-triangle-e"}
+});
+
 
 /*Show/Hide Timed Pop Up*/
 
